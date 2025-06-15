@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Just Us League Limited - Empowering Communities with Technology</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .hero-bg {
+            background-color: #1a202c; /* A dark, modern background */
+            background-image: linear-gradient(to bottom, rgba(26, 32, 44, 0.8), rgba(26, 32, 44, 1));
+        }
+        .cta-button {
+            transition: all 0.3s ease;
+        }
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-gray-800">
+                <a href="#">The Just Us League</a>
+            </div>
+            <div class="hidden md:flex space-x-6">
+                <a href="#about" class="text-gray-600 hover:text-indigo-600">About Us</a>
+                <a href="#projects" class="text-gray-600 hover:text-indigo-600">Projects</a>
+                <a href="#partners" class="text-gray-600 hover:text-indigo-600">Our Partners</a>
+                <a href="#get-involved" class="text-gray-600 hover:text-indigo-600">Get Involved</a>
+            </div>
+            <div class="md:hidden">
+                <button id="mobile-menu-button" class="text-gray-600 hover:text-indigo-600 focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            </div>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="md:hidden hidden px-6 pb-4 space-y-2">
+             <a href="#about" class="block text-gray-600 hover:text-indigo-600">About Us</a>
+             <a href="#projects" class="block text-gray-600 hover:text-indigo-600">Projects</a>
+             <a href="#partners" class="block text-gray-600 hover:text-indigo-600">Our Partners</a>
+             <a href="#get-involved" class="block text-gray-600 hover:text-indigo-600">Get Involved</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <main>
+        <section class="hero-bg text-white py-20 md:py-32">
+            <div class="container mx-auto px-6 text-center">
+                <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-4">Empowering Communities Through Technology</h1>
+                <p class="text-lg md:text-xl text-gray-300 mb-8 max-w-3xl mx-auto">The Just Us League Limited is a charity dedicated to providing access to robotics and AI education for underserved communities.</p>
+                <a href="#get-involved" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-8 rounded-full cta-button">
+                    Get Involved
+                </a>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="py-20">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Our Mission</h2>
+                    <p class="text-lg text-gray-600 mt-2">Fostering innovation and cultural preservation through technology.</p>
+                </div>
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <img src="https://placehold.co/600x400/3498db/ffffff?text=Community+Robotics" alt="Community members working with robotics kits" class="rounded-lg shadow-xl w-full">
+                    </div>
+                    <div class="text-lg">
+                        <p class="mb-4">
+                            <strong>The Just Us League Limited (ABN: 50603437467)</strong> is a registered charity committed to bridging the technology gap. We believe in learning by doing.
+                        </p>
+                        <p class="mb-4">
+                            We donate access to state-of-the-art robotics kits and provide single-use kits to Aboriginal and Torres Strait Islander peoples, as well as other participants in our community meetup groups. Our goal is to inspire the next generation of innovators and thinkers.
+                        </p>
+                         <p>
+                           Our programs are designed to be hands-on, engaging, and culturally relevant, ensuring that everyone has the opportunity to explore the exciting world of technology.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="bg-white py-20">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Key Projects</h2>
+                    <p class="text-lg text-gray-600 mt-2">Innovating at the intersection of technology and culture.</p>
+                </div>
+                <div class="bg-gray-100 rounded-lg shadow-lg p-8 md:p-12 flex flex-col md:flex-row items-center gap-8">
+                     <div class="md:w-1/3 text-center">
+                        <img src="https://placehold.co/400x300/f39c12/ffffff?text=Dreamtime+LLM" alt="Abstract representation of AI and cultural history" class="rounded-lg shadow-md w-full">
+                     </div>
+                     <div class="md:w-2/3">
+                        <h3 class="text-2xl font-bold mb-3">The Dreamtime LLM Initiative</h3>
+                        <p class="text-lg mb-4">
+                           In collaboration with the Australian AI Society, we are pioneering the development of a Large Language Model (LLM) trained on Indigenous cultural histories.
+                        </p>
+                        <p class="text-lg">
+                           The <strong>Dreamtime LLM</strong> project aims to preserve and revitalize ancient stories and knowledge systems by leveraging cutting-edge AI. It's a testament to how technology can be a powerful tool for cultural preservation and understanding.
+                        </p>
+                     </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Equipment Sharing Section -->
+        <section id="sharing" class="py-20">
+            <div class="container mx-auto px-6 text-center">
+                 <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Equipment Sharing Program</h2>
+                 <p class="text-lg text-gray-600 max-w-3xl mx-auto mb-8">We are open to sharing our robotics equipment with schools and other community groups to broaden the reach of STEM education.</p>
+                 <div class="bg-indigo-100 border-l-4 border-indigo-500 text-indigo-700 p-6 rounded-lg shadow-md text-left inline-block">
+                     <h4 class="font-bold text-xl mb-2">Requirements for Sharing</h4>
+                     <p>To ensure the safety of participants and the care of our equipment, we require appropriate adult supervision and valid insurance coverage from borrowing organizations.</p>
+                 </div>
+            </div>
+        </section>
+
+
+        <!-- Partners Section -->
+        <section id="partners" class="bg-white py-20">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Our Valued Partners</h2>
+                    <p class="text-lg text-gray-600 mt-2">We are proud to work alongside these fantastic organizations.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                    <div class="p-6 bg-gray-100 rounded-lg shadow-md">
+                        <h3 class="text-xl font-bold mb-2">Australian AI Society</h3>
+                        <p class="text-gray-700 mb-4">Driving our Dreamtime LLM project and AI ethics initiatives.</p>
+                        <a href="http://aisoc.au" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:underline">Visit aisoc.au</a>
+                    </div>
+                    <div class="p-6 bg-gray-100 rounded-lg shadow-md">
+                        <h3 class="text-xl font-bold mb-2">Expert and Decision Support Systems Institute</h3>
+                        <p class="text-gray-700 mb-4">Providing expertise in system design and educational frameworks.</p>
+                        <a href="http://expert.org.au" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:underline">Visit expert.org.au</a>
+                    </div>
+                    <div class="p-6 bg-gray-100 rounded-lg shadow-md">
+                        <h3 class="text-xl font-bold mb-2">Berkley Community Robotics Meetup</h3>
+                        <p class="text-gray-700 mb-4">Our grassroots partner for hands-on workshops and community engagement.</p>
+                        <p class="text-gray-500">(Webpage coming soon)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Get Involved Section -->
+        <section id="get-involved" class="bg-gray-800 text-white py-20">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Join Us in Our Mission</h2>
+                <p class="text-lg text-gray-300 mb-8 max-w-2xl mx-auto">Whether you're a volunteer, a potential partner, or wish to donate, we'd love to hear from you.</p>
+                <a href="mailto:contact@thejustusleague.org" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-8 rounded-full cta-button">
+                    Contact Us
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2024 The Just Us League Limited. All rights reserved.</p>
+            <p class="text-sm text-gray-400 mt-1">ABN: 50603437467</p>
+        </div>
+    </footer>
+    
+    <script>
+        // Simple script for mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+                // Close mobile menu on link click
+                if (!mobileMenu.classList.contains('hidden')) {
+                    mobileMenu.classList.add('hidden');
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
